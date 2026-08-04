@@ -496,6 +496,14 @@ footer {
 
 .form-group textarea { min-height: 140px; resize: vertical; }
 
+.service-icon, .pillar-icon, .event-emoji, .contact-detail-icon {
+  color: var(--gold);
+}
+.service-icon svg { width: 30px; height: 30px; display: block; }
+.pillar-icon svg { width: 34px; height: 34px; display: block; }
+.event-emoji svg { width: 34px; height: 34px; display: block; }
+.contact-detail-icon svg { width: 18px; height: 18px; display: block; }
+
 /* ── ANIMATIONS ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(30px); }
