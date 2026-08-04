@@ -42,9 +42,19 @@ nav {
   letter-spacing: 3px;
   color: var(--text);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-logo span { color: var(--gold); }
+
+.logo-img {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+.footer-brand .logo-img { height: 30px; }
 
 .nav-links { display: flex; gap: 40px; list-style: none; }
 
