@@ -82,11 +82,6 @@ nav {
 
 /* ── HERO ── */
 .hero {
-  display: flex;           /* Turns on flexbox layout */
-  justify-content: center; /* Centers text horizontally */
-  align-items: center;     /* Centers text vertically */
-  min-height: 400px;       /* Gives the section height so it can center vertically */
-  
   min-height: 100vh;
   display: flex;
   align-items: center;
