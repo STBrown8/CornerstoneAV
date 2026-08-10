@@ -109,10 +109,9 @@ nav {
 }
 
 .hero-content {
-    display: flex;           /* Turns on flexbox layout */
-  justify-content: center; /* Centers text horizontally */
-  align-items: center;     /* Centers text vertically */
-  min-height: 400px;       /* Gives the section height so it can center vertically */
+  position: relative;
+  max-width: 680px;
+  animation: fadeUp 1s ease both;
 }
 
 .hero-tag {
